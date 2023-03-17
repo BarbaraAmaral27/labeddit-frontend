@@ -1,11 +1,11 @@
 import React from "react";
-import { Styled } from "./Styled";
-import Header from "../../components/Header/Header";
+import { Styled } from "./SignupPageStyled";
+import HeaderSignup from "../../components/HeaderSignup/HeaderSignup";
 
 const SignupPage = () => {
   return (
     <>  
-      <Header/>
+      <HeaderSignup/>
       <Styled>
         <section>
           <h1>Olá, boas vindas ao
