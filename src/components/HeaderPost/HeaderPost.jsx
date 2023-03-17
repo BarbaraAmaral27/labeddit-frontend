@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Styled } from "./Styled";
+import { Styled } from "./styledHeaderPost";
 import { goToHomePage } from "../../routes/coordinator";
 import logoSmall from "../../assets/logoSmall.png";
 
@@ -11,7 +11,7 @@ const Header = () => {
       <Styled>
         <section className="container-logo">
           <img src={logoSmall} alt="logo" />
-          <a onClick={() => goToHomePage(navigate)}>Entrar</a>
+          <a onClick={() => goToHomePage(navigate)}>Logout</a>
         </section>
       </Styled>
     </>
