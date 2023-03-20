@@ -6,6 +6,8 @@ import { GlobalContext } from "../../contexts/GlobalContext";
 import Post from "../../components/Post/Post"
 import { BASE_URL } from "../../constants/url";
 import Comment from "../../components/Comment/Comment";
+import { Styled } from "./CommentPageStyled";
+import Footer from "../../components/Footer/Footer"
 
 const CommentPage = () => {
   const { context, fetchPosts, posts, fetchComments, comments, setComments } =
@@ -68,9 +70,10 @@ const CommentPage = () => {
   return (
     <>
       <HeaderComment />
+      <Styled>
       <section className="container-input">
         <Post post={post} />
-        <div className="input">
+        <div className="comment">
           <input
             type="text"
             placeholder="Escreva seu comentário..."
@@ -94,6 +97,8 @@ const CommentPage = () => {
             return <Comment key={comment.id} comment={comment} />;
           })}
       </section>
+      </Styled>
+      <Footer/>
     </>
   );
 };

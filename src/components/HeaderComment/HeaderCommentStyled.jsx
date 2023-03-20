@@ -25,6 +25,7 @@ export const Styled = styled.header`
   }
 
   .logo {
+    position: absolute;
     transform: translateX(-50%);
     width: 28.02px;
     height: 31.67px;
@@ -32,17 +33,7 @@ export const Styled = styled.header`
     cursor: pointer;
   }
 
-  /* img{
-    position: fixed;
-    transform: translateX(-50%);
-    width: 28.02px;
-    left: 50%;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    cursor: pointer;
-  } */
-
   a{
-    font-family: "Noto Sans";
     font-weight: 600;
     font-size: 18px;
     text-align: center;

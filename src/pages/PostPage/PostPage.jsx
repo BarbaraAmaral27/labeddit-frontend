@@ -6,6 +6,7 @@ import { GlobalContext } from "../../contexts/GlobalContext";
 import { useNavigate, useParams } from "react-router-dom";
 import { goToLoginPage } from "../../routes/coordinator";
 import { BASE_URL } from "../../constants/url";
+import Footer from "../../components/Footer/Footer"
 
 
 const PostPage = () => {
@@ -68,13 +69,14 @@ const PostPage = () => {
           <hr />
         </section>  
         <section className="container-posts">
-          {posts
+          {Array.isArray(posts) && posts
             .map((post) => {
             return <Post key={post.id} post={post} />
           })
           .reverse()}
         </section>
       </Styled>
+      <Footer/>
     </>
   );
 };
