@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Styled } from "./SignupPageStyled";
+import Footer from "../../components/Footer/Footer"
 import HeaderSignup from "../../components/HeaderSignup/HeaderSignup";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -98,6 +99,7 @@ const SignupPage = () => {
             Cadastrar
           </button>
         </section>
+        <Footer />
       </Styled>
     </>
   );

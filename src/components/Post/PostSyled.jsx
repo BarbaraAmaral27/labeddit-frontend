@@ -10,6 +10,7 @@ export const Styled = styled.main`
   padding: 12px;
   width: 22.438rem;
   margin-top: 15px;
+  margin-bottom: 20px;
 
   .container-posts {
     h6{

@@ -10,6 +10,7 @@ import {
   goToPostsPage,
   goToSignupPage,
 } from "../../routes/coordinator";
+import Footer from "../../components/Footer/Footer"
 
 const LoginPage = () => {
   const { context, page, setPage } = useContext(GlobalContext);
@@ -101,6 +102,7 @@ const LoginPage = () => {
           </button>
         </section>
       </Styled>
+      <Footer/>
     </>
   );
 };

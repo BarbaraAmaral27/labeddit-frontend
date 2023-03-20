@@ -1,23 +1,26 @@
 import styled from "styled-components";
 
 export const Styled = styled.main`
-  display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
 
-  .container-post {
+
+  .container-input {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
   }
 
-  .post {
+  
+  .comment {
     background: #e0e0e0;
     border-radius: 12px;
     width: 364px;
     height: 131px;
+    margin-top: 12px;
   }
 
   input {
@@ -31,7 +34,8 @@ export const Styled = styled.main`
     outline: none;
   } 
 
-  .btn-postar {
+ 
+  button {
     background: linear-gradient(90deg, #ff6489 0%, #f9b24e 100%);
     border-radius: 12px;
     border: none;
@@ -57,4 +61,6 @@ export const Styled = styled.main`
       rgba(249, 178, 78, 1) 100%
     );
   }
-`;
+
+  
+`
