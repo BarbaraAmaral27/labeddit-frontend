@@ -25,7 +25,7 @@ const SignupPage = () => {
   }, []);
 
   const onChangeForm = (event) => {
-    setForm({ ...form, [event.target.name]: event.target.name });
+    setForm({ ...form, [event.target.name]: event.target.value });
   };
 
   const signup = async () => {
