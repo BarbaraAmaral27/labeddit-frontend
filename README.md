@@ -5,7 +5,7 @@
 
 ## 📑 Introdução
 
- O projero Labeddit é uma rede social desenvolvida com o intuito de conectar diferentes pessoas e fazer com que elas possam interagir entre si. Desta forma o Labeddit permite a criação de usuários, criação de posts e comentários, além de poder curtir/descurtir posts e comentários de outras pessoas.
+    O projero Labeddit é uma rede social desenvolvida com o intuito de conectar diferentes pessoas e fazer com que elas possam interagir entre si. Desta forma o Labeddit permite a criação de usuários, criação de posts e comentários, além de poder curtir/descurtir posts e comentários de outras pessoas.
 
 ## ⚙️ Tecnologias usadas
 
