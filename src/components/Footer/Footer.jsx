@@ -3,10 +3,7 @@ import { Styled } from "./FooterStyled";
 import gitHub from "../../assets/gitHub.svg"
 import linkedin from "../../assets/linkedin.svg"
 
-
-const Header = () => {
-//   const { context, page, setPage } = useContext(GlobalContext);
-//   const navigate = useNavigate();
+const Footer = () => {
 
   return (
     <>
@@ -25,4 +22,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Footer;
